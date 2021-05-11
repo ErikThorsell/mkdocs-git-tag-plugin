@@ -1,6 +1,8 @@
 """The GitTagPlugin class contains functionality to inject git tags in mkdocs."""
 from git import Repo
+
 from jinja2 import DebugUndefined, Template
+
 from mkdocs.plugins import BasePlugin
 
 
