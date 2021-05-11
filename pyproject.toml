@@ -3,6 +3,14 @@ name = "mkdocs_git_tag_plugin"
 version = "0.1.0"
 authors = ["Erik Thorsell <erik@thorsell.io>"]
 description = "mkdocs plugin for enabling git-tag injection in markdown"
+license = "MIT"
+readme = "README.md"
+homepage = "https://thorsell.io"
+repository = "https://github.com/ErikThorsell/mkdocs-git-tag-plugin"
+keywords = ["mkdocs", "markdown", "git"]
+include = [
+    "LICENSE",
+]
 
 [tool.poetry.dependencies]
 python = "^3.6"
